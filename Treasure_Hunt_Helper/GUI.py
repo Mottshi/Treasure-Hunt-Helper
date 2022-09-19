@@ -32,5 +32,5 @@ layout =[[sg.Text('First', size=(20,1), font='Lucida, 20', justification='left')
          [sg.Button('Okay', size=(10,1), font='Lucida, 20')]]
 
 win = sg.Window('Helper', layout)
-win.read()
+e, v = win.read()
 win.close()
