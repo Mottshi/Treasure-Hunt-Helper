@@ -1,4 +1,3 @@
-import random
 my_file = open("combinations.txt", 'r')
 combinations = my_file.readlines()
 def Convert(string):
